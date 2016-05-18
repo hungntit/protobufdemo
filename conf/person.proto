@@ -1,0 +1,6 @@
+syntax = "proto2";
+option java_outer_classname = "MessageProtobuf";
+message Person {
+  optional string name = 1;
+  optional uint32 old = 2;
+}

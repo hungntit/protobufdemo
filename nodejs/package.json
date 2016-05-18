@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Protobuf example for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hung Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.2",
+    "google-closure-compiler": "^20160315.2.0",
+    "google-closure-library": "^20160315.0.0",
+    "google-protobuf": "^1.0.0",
+    "node-protobuf": "^1.2.14",
+    "webpack": "^1.13.0"
+  },
+  "devDependencies": {
+    "closure-loader": "^0.1.10"
+  }
+}
